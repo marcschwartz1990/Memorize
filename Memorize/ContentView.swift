@@ -12,7 +12,6 @@ struct ContentView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 25.0)
                 .stroke(lineWidth: 3.0)
-                .foregroundColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
             Text("Hello, world!")
         }
         .padding(.horizontal)
